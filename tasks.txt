@@ -1,0 +1,9 @@
+cook supper | False
+clean | True
+sleep | False
+play | False
+code | True
+linux-commands | False
+learn every line of a python program i just made | False
+sleep | False
+wake up | False
