@@ -49,7 +49,7 @@ class TodoList:
         if 0 < task_number <= len(self.tasks):
             self.tasks[task_number - 1].mark_done()
             self.save_tasks()
-            print(f"Task {task_number} marked as done.")
+            print(f"Task {task_number} marked as done!")
         else:
             print("Invalid task number.")
 
@@ -70,7 +70,7 @@ def main():
         if choice == "1":
             description = input("Enter the task description: ")
             todo_list.add_task(description)
-            print("Task added.")
+            print("Task has been added!")
         elif choice == "2":
             todo_list.display_tasks()
         elif choice == "3":
