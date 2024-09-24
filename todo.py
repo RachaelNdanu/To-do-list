@@ -57,7 +57,7 @@ def show_menu():
     print("\nTo-Do List CLI")
     print("1. Add a new task")
     print("2. Display all tasks")
-    print("3. Mark a task as done")
+    print("3. Mark  task as done")
     print("4. Exit")
 
 def main():
